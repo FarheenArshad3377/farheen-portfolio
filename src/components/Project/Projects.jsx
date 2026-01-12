@@ -1,14 +1,13 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "./ProjectCards"; // fix: name match kiya
 import Particle from "../Particle";
 
 // Project images
-import leaf from "../../assets/Projects/leaf.png";
-import emotion from "../../assets/Projects/emotion.png";
-import travelAppImg from "../../assets/Projects/travel.PNG";
+import resturant from "../../assets/Projects/r1.PNG";
+import weather from "../../assets/Projects/w5.PNG";
+import travelAppImg from "../../assets/Projects/travel-project.PNG";
 import gpa from "../../assets/Projects/project1.PNG";
-import music from "../../assets/Projects/m1.PNG";
+import music from "../../assets/Projects/m2.PNG";
 import netflix from "../../assets/Projects/2.PNG";
 
 const Projects = () => {
@@ -23,50 +22,70 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCards
-              imgPath={gpa} // gpa ka image import karna zaruri hai
-              isBlog={false}
-              title="GPA Calculator"
-              description="A simple GPA Calculator built with HTML, CSS, and JavaScript. Calculate your GPA easily for different subjects and semesters."
-              ghLink="https://github.com/FarheenArshad3377/GPA-Calculator" // tumhara GitHub repo
-              demoLink="https://farheenarshad3377.github.io/GPA-Calculator/"
-              className="project-card-img" // live demo
-            />
-          </Col>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+              <ProjectCards
+                imgPath={gpa}
+                isBlog={false}
+                title="GPA Calculator"
+                description="A simple GPA Calculator built with HTML, CSS, and JavaScript."
+                ghLink="https://github.com/FarheenArshad3377/GPA-Calculator"
+                demoLink="https://farheenarshad3377.github.io/GPA-Calculator/"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCards
-              imgPath={netflix} // Make sure you import your Netflix clone screenshot like import netflixCloneImg from "../../assets/netflix.png";
-              isBlog={false}
-              title="Netflix Clone"
-              description="A Netflix-style streaming platform clone built with React.js, React-Bootstrap, and CSS. Fully responsive with movie previews, carousel, and hover effects."
-              ghLink="https://github.com/FarheenArshad3377/Netflix-Clone"
-              demoLink="https://farheenarshad3377.github.io/Netflix-Clone/"
-              className="project-card-img"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCards
+                imgPath={netflix}
+                isBlog={false}
+                title="Netflix Clone"
+                description="A Netflix-style streaming platform clone built with React.js."
+                ghLink="https://github.com/FarheenArshad3377/Netflix-Clone"
+                demoLink="https://farheenarshad3377.github.io/Netflix-Clone/"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCards
-              imgPath={music} // Make sure you import your Netflix clone screenshot like import netflixCloneImg from "../../assets/netflix.png";
-              isBlog={false} title="Music App" description="A Flutter-based music player app with song playback, pause/play controls, previous/next track, and dark/light theme support. Currently under development."
-              className="project-card-img"
-            />
-          </Col>
+            <Col md={4} className="project-card">
+              <ProjectCards
+                imgPath={music}
+                isBlog={false}
+                title="Music App"
+                description="Flutter-based music player app with dark/light theme and controls.                                 "
+                demoLink="https://music-clone.web.app"
+              />
+            </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCards
-              imgPath={travelAppImg} // import your Travel App screenshot: import travelAppImg from "../../assets/travelApp.png";
-              isBlog={false}
-              title="Travel App"
-              description="A Flutter-based Travel app showcasing destinations, bookings, and travel guides with an interactive UI. Fully responsive and visually appealing."
-              ghLink="https://github.com/FarheenArshad3377/Travel_Project"
-              // No demoLink if not live yet
-            />
-          </Col>
-        </Row>
+            <Col md={4} className="project-card">
+              <ProjectCards
+                imgPath={travelAppImg}
+                isBlog={false}
+                title="Travel App"
+                description="A modern travel app with animations and clean UI."
+                demoLink="https://travel-aee36.web.app"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCards
+                imgPath={weather}
+                isBlog={false}
+                title="Weather App"
+                description="Weather forecasting app using live API data."
+                demoLink="https://weather-b399f.web.app"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCards
+                imgPath={resturant}
+                isBlog={false}
+                title="Restaurant App"
+                description="Food & recipe app with categories and responsive design."
+                demoLink="https://recipesfood-b61ec.web.app"
+              />
+            </Col>
+          </Row>
+        
       </Container>
     </Container>
   );

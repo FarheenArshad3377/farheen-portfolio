@@ -7,5 +7,5 @@ body {
   font-family: "PT Mono", monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(9, 9, 9), rgb(0, 0, 0));
+  background-image: linear-gradient(to left, #181818, #7a139d);
 }

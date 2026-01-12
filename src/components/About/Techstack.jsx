@@ -13,7 +13,8 @@ import Firebase from "../../assets/TechIcons/Firebase.svg";
 import Tailwind from "../../assets/TechIcons/Tailwind.svg";
 import MUI from "../../assets/TechIcons/MUI.svg";
 import Postman from "../../assets/TechIcons/Postman.svg";
-
+import express from "../../assets/TechIcons/ex.png";
+import postgreSql from "../../assets/TechIcons/post.png";
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -67,7 +68,13 @@ const Techstack = () => {
         <img src={Node} alt="Node.js" />
         <div className="tech-icons-text">Node.js</div>
       </Col>
-
+<Col xs={4} md={2} className="tech-icons">
+        <img src={express} alt="Express.js" width={"40px"} />
+        <div className="tech-icons-text">Express.js</div>
+      </Col><Col xs={4} md={2} className="tech-icons">
+        <img src={postgreSql} alt="postgreSQL" width={"40px"} />
+        <div className="tech-icons-text">PostgreSQL</div>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img src={Mongo} alt="MongoDB" />
         <div className="tech-icons-text">MongoDB</div>

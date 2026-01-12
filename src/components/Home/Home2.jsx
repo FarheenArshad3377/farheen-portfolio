@@ -45,13 +45,6 @@ const Home2 = () => {
               applications.
             </p>
           </Col>
-          {/* <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar"
-              style={{minHeight: "397px"}}
-              />
-            </Tilt>
-          </Col> */}
         </Row>
       </Container>
     </Container>

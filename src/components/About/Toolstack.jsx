@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../assets/TechIcons/Apple MacOSX.svg";
+import figma from "../../assets/TechIcons/figma (2).png";
 import chrome from "../../assets/TechIcons/Google Chrome.svg";
 import vsCode from "../../assets/TechIcons/vscode.svg";
-import intelliJ from "../../assets/TechIcons/intellij-idea.svg";
+import andriod from "../../assets/TechIcons/andriod (2).png";
 
 const Toolstack = () => {
   return (
@@ -15,7 +15,14 @@ const Toolstack = () => {
         <img src={vsCode} alt="vsCode" className="tech-icon-images" />
         <div className="tech-icons-text">Vs Code</div>
       </Col>
-
+        <Col xs={4} md={2} className="tech-icons ">
+        <img src={andriod} alt="vsCode" className="tech-icon-images" />
+        <div className="tech-icons-text">Andriod</div>
+      </Col>  
+      <Col xs={4} md={2} className="tech-icons ">
+        <img src={figma} alt="vsCode" className="tech-icon-images" />
+        <div className="tech-icons-text">Figma</div>
+      </Col>
     </Row>
   )
 }
