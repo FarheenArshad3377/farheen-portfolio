@@ -370,20 +370,31 @@ button:focus {
 }
 
 .home-about-description {
-    color: white !important;
-    padding-top: 100px !important;
-    padding-bottom: 20px !important;
-    text-align: center;
-    display: block;
-    margin-left: 141px;
-    width: 71%;
+  color: white !important;
+  padding: 50px 20px; /* top-bottom 50px, left-right 20px */
+  text-align: center; /* center text */
+  margin: 0 auto; /* center container horizontally */
+  max-width: 900px; /* max width for large screens */
+  width: 100%; /* full width on smaller screens */
+  display: block;
 }
 
+
 .home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
-  background: black;
+  font-size: 1.1em !important; /* slightly smaller for mobile */
+  text-align: center; /* center text on mobile */
+  line-height: 1.6em; /* spacing between lines */
+}
+
+/* Media query for tablets and small screens */
+@media (max-width: 768px) {
+  .home-about-description {
+    padding: 40px 15px;
+  }
+  .home-about-body {
+    font-size: 1em !important;
+    text-align: center;
+  }
 }
 
 .home-about-social {

@@ -43,8 +43,8 @@ const Home = () => {
                 alt="home pic"
                 className="img-fluid"
                 style={{
-                  width: "400px",
-                  height: "400px",
+                  width: "300px",
+                  height: "300px",
                   borderRadius: "50%",
                   objectFit: "fill",
                   marginLeft: "45px",
