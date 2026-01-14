@@ -3,7 +3,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../assets/a1.png";
+import laptopImg from "../../assets/a1.PNG";
 import Toolstack from "./Toolstack"
 const About = () => {
   return (
