@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../assets/m.png";
-import Tilt from "react-parallax-tilt";
+
 const Home2 = () => {
   return (
     <Container fluid className="home-about-section" id="about">

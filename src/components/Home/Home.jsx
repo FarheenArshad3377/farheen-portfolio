@@ -61,7 +61,6 @@ const Home = () => {
               >
                 <Type />
 
-               
               </div>
             </Col>
 
@@ -140,3 +139,4 @@ const Home = () => {
 };
 
 export default Home;
+
