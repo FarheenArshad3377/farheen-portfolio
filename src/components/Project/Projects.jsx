@@ -22,73 +22,72 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
 
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
-              <ProjectCards
-                imgPath={gpa}
-                isBlog={false}
-                title="GPA Calculator"
-                description="A simple GPA Calculator built with HTML, CSS, and JavaScript."
-                ghLink="https://github.com/FarheenArshad3377/GPA-Calculator"
-                demoLink="https://farheenarshad3377.github.io/GPA-Calculator/"
-              />
-            </Col>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={gpa}
+              isBlog={false}
+              title="GPA Calculator"
+              description="A simple GPA Calculator built with HTML, CSS, and JavaScript."
+              ghLink="https://github.com/FarheenArshad3377/GPA-Calculator"
+              demoLink="https://gpa-calculator-snowy-sigma.vercel.app/"
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCards
-                imgPath={netflix}
-                isBlog={false}
-                title="Netflix Clone"
-                description="A Netflix-style streaming platform clone built with React.js."
-                ghLink="https://github.com/FarheenArshad3377/Netflix-Clone"
-                demoLink="https://farheenarshad3377.github.io/Netflix-Clone/"
-              />
-            </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Clone"
+              description="A Netflix-style streaming platform clone built with React.js."
+              ghLink="https://github.com/FarheenArshad3377/Netflix-Clone"
+              demoLink="https://netflix-clone-mm2f.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={music}
+              isBlog={false}
+              title="Music App"
+              description="Flutter-based music player app with dark/light theme and controls.                                 "
+              demoLink="https://music-clone.web.app"
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCards
-                imgPath={music}
-                isBlog={false}
-                title="Music App"
-                description="Flutter-based music player app with dark/light theme and controls.                                 "
-                demoLink="https://music-clone.web.app"
-              />
-            </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={travelAppImg}
+              isBlog={false}
+              title="Travel App"
+              description="A modern travel app with animations and clean UI."
+              demoLink="https://travel-aee36.web.app"
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCards
-                imgPath={travelAppImg}
-                isBlog={false}
-                title="Travel App"
-                description="A modern travel app with animations and clean UI."
-                demoLink="https://travel-aee36.web.app"
-              />
-            </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={weather}
+              isBlog={false}
+              title="Weather App"
+              description="Weather forecasting app using live API data."
+              demoLink="https://weather-b399f.web.app"
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCards
-                imgPath={weather}
-                isBlog={false}
-                title="Weather App"
-                description="Weather forecasting app using live API data."
-                demoLink="https://weather-b399f.web.app"
-              />
-            </Col>
-
-            <Col md={4} className="project-card">
-              <ProjectCards
-                imgPath={resturant}
-                isBlog={false}
-                title="Restaurant App"
-                description="Food & recipe app with categories and responsive design."
-                demoLink="https://recipesfood-b61ec.web.app"
-              />
-            </Col>
-          </Row>
-        
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={resturant}
+              isBlog={false}
+              title="Restaurant App"
+              description="Food & recipe app with categories and responsive design."
+              demoLink="https://recipesfood-b61ec.web.app"
+            />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
 };
 
 export default Projects;
+
