@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import trophy from "../../assets/a1.png";
+import trophy from "../../assets/a1.PNG";
 import trophy2 from "../../assets/aptech.jpeg";
 import hackathon from "../../assets/hackaton.jpeg";
 
