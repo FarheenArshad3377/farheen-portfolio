@@ -860,22 +860,20 @@ a {
 .achievement-page {
   padding: 100px 50px;
 }
-.achieve-discription{
-  color: white !important;
-    padding: 50px 20px;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 900px;
-    width: 45%;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.75);
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
-    border-radius: 1rem;
-    /* padding: 1.5rem; */
-    margin-top: 3rem;
-    margin-bottom: 3rem;
 
+.achieve-discription {
+  color: white !important;
+  padding: 50px 20px;
+  text-align: center;
+  margin: 3rem auto;
+  max-width: 900px;
+  width: 45%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
 }
+
 .achievement-section {
   margin-top: 50px;
 }
@@ -902,10 +900,76 @@ a {
 }
 
 .achievement-img {
-     width: 546px;
-    max-width: 100%;
-    margin-top: 49px;
+  width: 100%;
+  max-width: 546px;
+  margin-top: 49px;
 }
-.achieve-row{
+
+.achieve-row {
   margin-top: 30px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .achievement-page {
+    padding: 80px 30px;
+  }
+  .achieve-discription {
+    width: 60%;
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-page {
+    padding: 60px 20px;
+  }
+  .achieve-discription {
+    width: 75%;
+    padding: 35px 15px;
+  }
+  .achievement-title {
+    font-size: 28px;
+  }
+  .achievement-text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievement-page {
+    padding: 40px 10px;
+  }
+  .achieve-discription {
+    width: 95%;
+    padding: 25px 10px;
+  }
+  .achievement-title {
+    font-size: 24px;
+  }
+  .achievement-text {
+    font-size: 14px;
+  }
+  .achieve-discription h1 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 375px) {
+  .achievement-page {
+    padding: 30px 5px;
+  }
+  .achieve-discription {
+    width: 100%;
+    padding: 20px 8px;
+  }
+  .achievement-title {
+    font-size: 22px;
+  }
+  .achievement-text {
+    font-size: 13px;
+  }
+  .achieve-discription h1 {
+    font-size: 1.2em;
+  }
 }
