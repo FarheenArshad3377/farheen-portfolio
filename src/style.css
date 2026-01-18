@@ -857,3 +857,40 @@ a {
   object-fit: cover;      /* ❌ stretch nahi hogi */
   border-radius: 10px 10px 0 0;
 }
+.achievement-page {
+  padding: 100px 50px;
+}
+
+.achievement-section {
+  margin-top: 50px;
+}
+
+.achievement-title {
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+}
+
+.line {
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #6c63ff;
+  margin-top: 10px;
+}
+
+.achievement-text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.7;
+}
+
+.achievement-img {
+     width: 546px;
+    max-width: 100%;
+    margin-top: 49px;
+}
+.achieve-row{
+  margin-top: 30px;
+}

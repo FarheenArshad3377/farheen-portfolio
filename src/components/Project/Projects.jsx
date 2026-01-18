@@ -9,6 +9,8 @@ import travelAppImg from "../../assets/Projects/travel-project.PNG";
 import gpa from "../../assets/Projects/project1.PNG";
 import music from "../../assets/Projects/m2.PNG";
 import netflix from "../../assets/Projects/2.PNG";
+import sudoku from "../../assets/Projects/blockchain.PNG";
+import blockchain from "../../assets/Projects/blockchain4.PNG";
 
 const Projects = () => {
   return (
@@ -83,6 +85,25 @@ const Projects = () => {
               demoLink="https://recipesfood-b61ec.web.app"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={sudoku}
+              isBlog={false}
+              title="Sudoku Game (Group Project)"
+              description="A fully functional Sudoku game developed as a group project using Java. The game includes multiple screens, difficulty levels, a timer, mistake tracking, and interactive UI elements, focusing on logic building and problem-solving."
+              ghLink="https://github.com/FarheenArshad3377/Sudoku-Game"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCards
+              imgPath={blockchain}
+              isBlog={false}
+              title="Blockchain Project"
+              description="A blockchain-based project focusing on core concepts such as blocks, transactions, hashing, and data integrity. This project demonstrates my understanding of blockchain fundamentals and backend logic implementation."
+              ghLink="https://github.com/FarheenArshad3377/BlockChain"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
@@ -90,4 +111,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

@@ -25,9 +25,9 @@ const NavbarComponent = () => {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-       <BsNavbar.Brand as={Link} to="/" className="logo-icon">
-  <FaCode /> Farheen
-</BsNavbar.Brand>
+        <BsNavbar.Brand as={Link} to="/" className="logo-icon">
+          <FaCode /> Farheen
+        </BsNavbar.Brand>
 
         <BsNavbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -37,32 +37,54 @@ const NavbarComponent = () => {
         <BsNavbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Item>
-              <Nav.Link as={Link} to="/">
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={() => updateExpanded(false)} // <-- Close navbar on click
+              >
                 <AiOutlineHome /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineUser /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/project">
+              <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineFundProjectionScreen /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/resume">
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
                 <CgFileDocument /> Resume
               </Nav.Link>
             </Nav.Item>
 
-        
-
-        
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/achievement"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillStar /> Achievements
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </BsNavbar.Collapse>
       </Container>
@@ -71,4 +93,3 @@ const NavbarComponent = () => {
 };
 
 export default NavbarComponent;
-
