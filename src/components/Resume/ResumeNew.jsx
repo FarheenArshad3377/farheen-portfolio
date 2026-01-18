@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
-import pdf from "../../assets/Farheen-Arshad.pdf";
+import pdf from "../../assets/Farheen.pdf";
 
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
