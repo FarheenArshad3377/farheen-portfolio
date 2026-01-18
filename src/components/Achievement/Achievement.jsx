@@ -15,7 +15,7 @@ const Achievement = () => {
 
       {/* ===== Section 1 ===== */}
       <Row className="achieve-row">
-        <Col md={8} className="home-about-description">
+        <Col md={8} className="achieve-discription">
           <h1 style={{ fontSize: "2.6em" }}>
             APTECH <span className="purple">VISION 2023</span>
           </h1>
@@ -51,7 +51,7 @@ const Achievement = () => {
         </Col>
       </Row>
       <Row className="achieve-row">
-        <Col md={8} className="home-about-description">
+        <Col md={8} className="achieve-discription">
           <h1 style={{ fontSize: "2.6em" }}>
             APTECH <span className="purple">VISION PARTICIPATION</span>
           </h1>
@@ -86,7 +86,7 @@ const Achievement = () => {
         </Col>
       </Row>
       <Row className="achieve-row">
-        <Col md={8} className="home-about-description">
+        <Col md={8} className="achieve-discription">
           <h1 style={{ fontSize: "2.6em" }}>
             HACKATHON <span className="purple">EXPERIENCE</span>
           </h1>
